@@ -4,8 +4,6 @@
     margin-top: 40px;
     padding: 5px 70px;
     column-gap: 70px;
-    /* position: absolute; */
-    /* position: relative; */
     position: static;
 }
 
@@ -20,6 +18,9 @@
     border-radius: 8px;
     height: 80vh;
     padding: 15px 10px;
-    /* position: fixed; */
-    /* right: 10%; */
+}
+
+.cart-container h2{
+    margin-bottom: 30px;
+    text-align: center;
 }
