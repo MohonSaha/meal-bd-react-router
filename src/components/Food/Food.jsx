@@ -19,7 +19,7 @@ const Food = () => {
                 }
             </div>
             <div className='cart-container'>
-                <h2>Cart Area </h2>
+                <h2>Order Summary</h2>
             </div>
         </div>
     );

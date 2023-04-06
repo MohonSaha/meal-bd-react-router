@@ -13,5 +13,10 @@
 }
 
 .cart-container{
-    background-color: aquamarine;
+    background-color: rgba(224, 224, 224, 0.524);
+    border-radius: 8px;
+    height: 80vh;
+    padding: 15px 10px;
+    /* position: fixed; */
+    /* right: 10%; */
 }
