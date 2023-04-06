@@ -4,6 +4,9 @@
     margin-top: 40px;
     padding: 5px 70px;
     column-gap: 70px;
+    /* position: absolute; */
+    /* position: relative; */
+    position: static;
 }
 
 .food-item{

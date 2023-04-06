@@ -1,9 +1,10 @@
 .home-container{
     padding: 0px 70px;
     /* width: ; */
-    /* height: calc(100vh - 120px); */
+    height: calc(100vh - 120px);
     display: flex;
     align-items: center;
+    /* position: absolute; */
 }
 
 .article-container{
@@ -22,21 +23,79 @@
 
 .anni-container{
     max-width: 50%;
-    /* max-height: 80%; */
-    /* height: 80%; */
     margin-top: 90px;
 }
 
 .home-btn{
     margin-top: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .btn{
     background-color: #561187cb;
-    padding: 6px 12px;
+    padding: 10px 12px;
     color: white;
     border-radius: 8px;
     margin-right: 20px;
     text-decoration: none;
-    /* font-weight: 00; */
 }
+
+.pizza-icon{
+    margin-left: 8px;
+}
+
+.about-button{
+    text-decoration: none;
+    color: rgb(74, 73, 73);
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition-duration: 400ms;
+}
+
+
+
+
+/* Start btn hover effect */
+
+.main-div{
+    display: grid;
+    place-items: center;
+    background-color: hsl(206, 23%, 94%);
+}
+
+.about-btn{
+    text-decoration: none;
+    padding: 10px 2.2rem;
+    border: 0.1rem solid #561187;
+    color: #561187;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s linear;
+    overflow: hidden;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.about-btn::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: #561187cb;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: all 0.5s linear;
+}
+
+.about-btn:hover:before{
+    transform: translateX(0%);
+    z-index: -1;
+}
+
+.about-btn:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* End btn hover effect */

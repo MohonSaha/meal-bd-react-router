@@ -2,9 +2,13 @@
     display: flex;
     justify-content: space-between;
     padding: 4px 70px;
-    background-color: #561187cb;
+    background-color: #561187e6;
     align-items: center;
-    
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .img-container{
