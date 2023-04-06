@@ -1,0 +1,56 @@
+.card-container{
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    
+    position: relative;
+}
+
+
+.food-img img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.food-info{
+    padding: 20px;
+}
+
+.food-info .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.food-info .catagory{
+    font-size: 18px;
+    margin: 8px 0px;
+}
+
+.food-info .info{
+    color: rgb(73, 73, 73);
+}
+
+.btn-more{
+    color: #561187cb;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-cart{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #343434f4;
+    padding: 14px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    transition-duration: 200ms;
+}
+
+.btn-cart:hover{
+    background-color: #561187cb;
+}

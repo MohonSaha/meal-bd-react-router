@@ -1,0 +1,17 @@
+.food-container{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin-top: 40px;
+    padding: 5px 70px;
+    column-gap: 70px;
+}
+
+.food-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.cart-container{
+    background-color: aquamarine;
+}
